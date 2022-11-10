@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+/** @jsxImportSource @emotion/react */
 import './App.css';
+import './emotion.js';
+import * as S from './emotion.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div css={S.MainPage}>
+        <div className='menubar'>
+
+        </div>
+        <div className='sidebar_left'>
+
+        </div>
+        <div className='sidebar_right'>
+
+        </div>
+        <div className='weatherInf'>
+
+        </div>
+      </div>
     </div>
   );
 }
