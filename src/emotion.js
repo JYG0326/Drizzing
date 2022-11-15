@@ -29,20 +29,25 @@ export const areaname = css`
   text-align: center;
   line-height: 150px;
 `
-export const timelist = css`
+export const forecast = css`
+  position: relative;
   width: 100%;
   height: calc(100vh - 230px);
   margin: 40px 0px 40px 0px;
 `
-export const wrapper_t = css`
+export const wrapper_f = css`
   width: 100%;
   height: calc(100vh - 230px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 `
-export const listbox_t = css`
+export const listbox_f = css`
   display: grid;
   grid-template-columns: 110px 110px 70px;
   grid-template-rows: 25px 22.5px 22.5px;
@@ -70,4 +75,25 @@ export const magnify = css`
   display: flex;
   justify-content: center;
   align-items: center;
+`
+
+export const wrapper_d = css`
+  width: 100%;
+  height: calc(100vh - 230px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+`
+
+export const detailbox = css`
+  width: 330px;
+  height: calc(100vh - 230px);
+  border-radius: 20px;
+  background-color: rgba(255,255,255,0.2);
 `
