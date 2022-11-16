@@ -88,7 +88,7 @@ export const wrapper_d = css`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  visibility: hidden;
+  display: none;
 `
 
 export const detailbox = css`
@@ -97,3 +97,68 @@ export const detailbox = css`
   border-radius: 20px;
   background-color: rgba(255,255,255,0.2);
 `
+
+export const sideicon = css`
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 5;
+`
+
+export const weatherInf = css`
+    width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
+export const weatherIcon = css`
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  font-weight: bold;
+`
+export const nowTime = css`
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+`
+export const weatherBox= css`
+  width: auto;
+  height: 100px;
+`
+export const nowWeather = css`
+  font-size: 35px;
+`
+
+export const weatherState = css`
+  font-size: 18px;
+  font-weight: bold;
+`
+
+export const tipArea = css`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 280px;
+`
+
+export const tipBox = css`
+  width: 400px;
+  height: 40px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 40px;
+  font-size: 17.5px;
+  line-height: 40px;
+  text-align: left;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2);
+`
+
